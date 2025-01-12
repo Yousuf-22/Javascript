@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,html {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#bulb {
+    display: flex;
+    background-color: yellow;
+    padding: 15px;
+    height: 50%;
+    width: 23%;
+    border-radius: 50%;
+    border: 2px black solid;
+}
+
+#button {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    padding: 12px;
+    margin-left: 10%;
+}
