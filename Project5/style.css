@@ -1,0 +1,60 @@
+body,html {
+    height: 100%;
+    width: 100;
+    background-color: #212121;
+    color: white;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    background-color: orange;
+    height: 50%;
+    width: 40%;
+    padding: 5%;
+    border: 2px black solid;
+    border-radius: 5%;
+}
+
+.first {
+    padding: 5%;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+#guess {
+    text-align: center;
+    font-size: x-large;
+}
+
+.second {
+    padding: 5%;
+}
+
+.guessfield {
+    padding: 2%;
+}
+
+#sub {
+    height: 5%;
+    width: 25%;
+    padding: 2%;
+    border: 1px white solid;
+    border-radius: 5%;
+    background-color: black;
+    color: white;
+}
