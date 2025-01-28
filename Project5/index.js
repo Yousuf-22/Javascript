@@ -13,7 +13,8 @@ let userguess = [];
 let numguess = 1;
 
 let playgame = true;
-let guess
+let guess;
+
 if(playgame) {
     submitButton.addEventListener('click', function(ele) {
         ele.preventDefault();
@@ -90,11 +91,8 @@ function newgame() {
         userinput.removeAttribute('disabled');
         startover.removeChild(p);
 
-
         playxgame = true;
-
     })
-
 }
 
 
